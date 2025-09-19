@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container{
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+header{
+  background-color: rgba(246, 245, 244, 1);
+  border-bottom: 1px solid rgba(224, 224, 224, 1);
+
+  .header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+
+    .logo{
+      font-weight: 600;
+      font-size: 16px;
+      padding-right: 28px;
+      letter-spacing: -2%;
+      border-right: 1.18px solid rgba(224, 224, 224, 1);
+    }
+
+    .header-registration{
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      align-items: center;
+      
+      a{
+        font-weight: 700;
+        font-size: 17px;
+        letter-spacing: -4%;
+      }
+
+      .login{
+        color: rgba(0, 0, 0, 1);
+      }
+      
+      .signUp{
+        color: rgba(255, 255, 255, 1);
+        background-color: rgba(43, 120, 139, 1);
+        padding: 13px 21px;
+        border-radius: 14px;
+      }
+
+    }   
+
+  }
+
+}
+
+
+.platform{
+  background-color: rgba(246, 245, 244, 1);
+
+  &-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    padding: 95px 0 44px 0;
+  }
+
+  &-description{
+    display: flex;
+    flex-direction: column;
+    max-width: 530px;
+    align-items: flex-start;
+
+    h2{
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 100%;
+      letter-spacing: 14%;
+      text-transform: uppercase;
+      color: rgba(43, 120, 139, 1);
+      margin-bottom: 24px;
+    }
+
+    h1{
+      font-family: 'Dela Gothic One', sans-serif;
+      font-weight: 400;
+      font-size: 56px;
+      line-height: 120%;
+      letter-spacing: -4%;
+      color: rgba(0, 0, 0, 1);
+      margin-bottom: 30px;
+    }
+
+    p{
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 140%;
+      letter-spacing: -4%;
+      color: rgba(117, 117, 117, 1);
+      max-width: 415px;
+      margin-bottom: 32px;
+    }
+
+    a{
+      font-weight: 700;
+      font-size: 16px;
+      letter-spacing: -4%;
+      color: rgba(43, 120, 139, 1);
+      padding: 14px 22px;
+      background-color: rgba(195, 220, 227, 1);
+      border-radius: 100px;
+      margin-bottom: 49px;
+      }
+
+      .platformItem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .platformItemTop{
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          margin-bottom: 3px;
+
+          p{
+            font-family: 'Dela Gothic One', sans-serif;
+            font-weight: 400;
+            font-size: 40px;
+            color: rgba(0, 0, 0, 1);
+            margin-bottom: 0;
+          }
+
+          span{
+            color: rgba(43, 120, 139, 1);
+            font-weight: 1000;
+            font-size: 40px;
+            font-family: 'Dela Gothic One', sans-serif;
+          
+          }
+        }
+
+        .platformItemBottom p{
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 140%;
+          color: rgba(88, 88, 88, 1);
+        }
+      } 
+  }
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  max-width: 500px;
+
+  h2{
+    font-family: 'Dela Gothic One', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: -1px;
+  }
+
+  p{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  color: rgba(117, 117, 117, 1);  
+  }
+}
+
+.playful{
+  &-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 78px 0;
+  }
+
+    .playful-items{
+      display: flex;
+      gap: 21px;
+
+      .item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        a {
+          font-weight: 700;
+          font-size: 16px;
+          
+          }
+
+          .item-sprint{
+            color: rgba(148, 80, 105, 1);
+            background-color:rgba(242, 212, 220, 1) ;
+            padding: 82px 34px 14px;
+            border-radius: 14px;
+          }
+          
+          .sprint-img{
+            z-index: 3;
+            margin-bottom: -78px;
+          }  
+
+          .item-task{
+            color:rgba(43, 120, 139, 1);
+            background-color: rgba(195, 220, 227, 1);
+            padding: 82px 52px 14px;
+            border-radius: 14px;
+          }
+
+          .task-img{
+            z-index: 3;
+            margin-bottom: -78px;
+          }
+      }
+    }
+    
+  }
+
+.button{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  padding: 14px 22px;
+  color: rgba(43, 120, 139, 1);
+  background-color: rgba(195, 220, 227, 1);
+  border-radius: 100px;
+}  
+.knowledge{
+  background-color: rgba(246, 245, 244, 1);
+
+  &-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+    padding-top: 26px;
+  }
+
+  .description{
+    max-width: 477px;
+
+  }
+}  
+
+.progress{
+  &-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    padding: 95px 0px;
+  }
+
+  .description{
+    max-width: 466px;
+  }
+}
+
+footer{
+  background-color: rgba(246, 245, 244, 1);
+
+  .footer-wrapper{
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1.2px solid rgba(224, 224, 224, 1);
+
+    &-nav, &-list{
+      display: flex;
+      gap: 30px;
+
+    }
+
+    a, p{
+      font-weight: 600;
+      font-size: 14px;
+      color: rgba(117, 117, 117, 1);
+    }
+  }
+
+  .footer-bottom{
+    display: flex;
+    justify-content: space-between;
+
+    &-socials{
+      display: flex;
+      gap: 30px;
+
+    }
+    p{
+      font-weight: 600;
+      font-size: 14px;
+      color: rgba(117, 117, 117, 1);
+    }
+  }
+}
+
+
