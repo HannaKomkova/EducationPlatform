@@ -1,0 +1,40 @@
+header{
+    background-color: rgba(246, 245, 244, 1);
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+  
+    .header-wrapper{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 24px 0;
+  
+      .logo{
+        font-weight: 600;
+        font-size: 16px;
+        padding-right: 28px;
+        letter-spacing: -2%;
+        border-right: 1.18px solid rgba(224, 224, 224, 1);
+      }
+  
+      .header-registration{
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+        align-items: center;
+        
+        a{
+          font-weight: 700;
+          font-size: 17px;
+          letter-spacing: -4%;
+        }
+  
+        .SignOut{
+          color: rgba(0, 0, 0, 1);
+        }
+        
+  
+      }   
+  
+    }
+  
+  }

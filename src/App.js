@@ -3,6 +3,7 @@ import MainPage from './page/MainPage.js'
 import RegisterPage from "./page/RegisterPage.js";
 import LoginPage from './page/LoginPage.js';
 import ErrorPage from './page/ErrorPage.js';
+import CoursesPage from './page/CoursesPage.js'
 
 function App(){
   return <Routes>
@@ -10,6 +11,7 @@ function App(){
     <Route path='/register' element={<RegisterPage/>}></Route>
     <Route path='/login' element={<LoginPage/>}></Route>
     <Route path='*' element={<ErrorPage/>}></Route>
+    <Route path='/courses' element={<CoursesPage/>}></Route>
   </Routes>
 }
 
