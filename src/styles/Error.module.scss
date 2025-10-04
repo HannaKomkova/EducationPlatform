@@ -1,0 +1,53 @@
+.error-page-hero{
+    background-color: rgba(246, 245, 244, 1);
+    &-wrapper{
+        padding: 87px 0;
+        display: flex;
+        justify-content: space-between;
+        gap: 180px;
+        align-items: center
+
+    }
+    
+    &-description{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: flex-start;
+        
+        h2{
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            color: rgba(117, 117, 117, 1);
+        }
+
+        h1{
+            font-family: 'Dela Gothic One', sans-serif;
+            font-weight: 400;
+            font-size: 56px;
+            line-height: 120%;
+            color: rgba(0, 0, 0, 1);
+        }
+
+        p{
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 142%;
+            color: rgba(117, 117, 117, 1);
+            margin-bottom: 8px;
+        }
+
+
+        a{
+            font-weight: 700;
+            font-size: 16px;
+            padding: 14px 24px 14px 22px;
+            border-radius: 100px;
+            color: rgba(255, 255, 255, 1);
+            background-color: rgba(43, 120, 139, 1);
+        }
+    }
+}
+
